@@ -1,0 +1,62 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  .one{
+    h3 
+    {
+      font-weight: 400;
+      padding: 20px;
+    }
+    p{
+      padding-top :15px;
+    }
+   
+  }
+
+  .onee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    div{
+      padding: 20px;
+      ul 
+      {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        li{
+          list-style-type:square;
+        }
+        
+      }
+    
+    }
+  }
+  .last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    .b1 
+    {
+
+      width: 50%;
+      button {
+        border: none;
+        background-color: #3F72AF;
+        padding: 13px;
+        
+        width: 200px;
+      }
+    }
+    .b2{
+      width: 50%;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.postbox{
+    width: 100%;
+    min-height: 100vh;
+}
+.nave{
+    margin-top: 70px;
+    width: 100%;
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        li:hover{
+            color: rgb(63, 114, 175);
+            transition: 1s;
+        }
+    }
+}

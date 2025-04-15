@@ -1,0 +1,43 @@
+.bigdiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .insidediv{
+        width: 40%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        h1 
+        {
+            font-weight: 700;
+        }
+    }
+    .maindiv 
+    {
+        button 
+        {
+            background-color: #7839DB;
+            width: 300px;
+        }
+    }
+    .lastdiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .sp {
+            color: #7839DB;
+            cursor: pointer;
+            .s 
+            {
+                color: black;
+            }
+        }
+    }
+}

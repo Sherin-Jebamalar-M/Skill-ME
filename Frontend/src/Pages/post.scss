@@ -1,0 +1,46 @@
+.bigform{
+
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    transform: translate(50%,50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    h3{
+        color: rgb(17, 45, 78);
+        font-weight: 800;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+       .text{
+        width: 400px;
+        height: 30px;
+        padding: 5px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid rgb(17, 45, 78);
+        
+
+       }
+       button {
+        background-color: green;
+        color: white;
+        width: 100px;
+        height: 30px;
+    
+    }
+    button:hover{
+        color: black;
+        transition: 1s;
+    }
+    input:focus{
+            outline: none;
+    }
+
+}}

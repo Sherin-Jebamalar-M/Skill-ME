@@ -1,0 +1,51 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.content .one h3 {
+  font-weight: 400;
+  padding: 20px;
+}
+.content .one p {
+  padding-top: 15px;
+}
+.content .onee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content .onee div {
+  padding: 20px;
+}
+.content .onee div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.content .onee div ul li {
+  list-style-type: square;
+}
+.content .last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.content .last .b1 {
+  width: 50%;
+}
+.content .last .b1 button {
+  border: none;
+  background-color: #3F72AF;
+  padding: 13px;
+  width: 200px;
+}
+.content .last .b2 {
+  width: 50%;
+  text-align: center;
+}/*# sourceMappingURL=AboutUs.css.map */

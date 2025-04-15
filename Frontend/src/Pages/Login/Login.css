@@ -1,0 +1,36 @@
+.bigdiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bigdiv .insidediv {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.bigdiv .insidediv h1 {
+  font-weight: 700;
+}
+.bigdiv .maindiv button {
+  background-color: #7839DB;
+  width: 300px;
+}
+.bigdiv .lastdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bigdiv .lastdiv .sp {
+  color: #7839DB;
+  cursor: pointer;
+}
+.bigdiv .lastdiv .sp .s {
+  color: black;
+}/*# sourceMappingURL=Login.css.map */
