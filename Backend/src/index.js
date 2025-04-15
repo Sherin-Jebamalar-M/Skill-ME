@@ -8,7 +8,7 @@ dotenv.config();
 import cors from "cors";
 
 // Configure CORS for your frontend URL
-const frontendURL = process.env.FRONTEND_URL || 'http://localhost:5173'; // Use an environment variable for your frontend URL in production
+const frontendURL = 'https://skill-me.vercel.app'; // Use an environment variable for your frontend URL in production
 app.use(cors({
     origin: frontendURL,
     credentials: true,
