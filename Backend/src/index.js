@@ -7,7 +7,7 @@ import { Image } from "./models/post.model.js"
 dotenv.config();
 import cors from "cors";
 app.use(cors({
-  origin: 'http://localhost:5173', // React frontend URL
+  origin: 'https://skill-me.vercel.app', // React frontend URL
   credentials: true,              // allow cookies, headers, etc.
 }));
 
