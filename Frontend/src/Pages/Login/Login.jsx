@@ -5,10 +5,13 @@ import "./Login.scss"
 const Login = () => {
 // State for hover effect
 
-  const handleGoogleLogin = () => {
-    window.location.href = "http://localhost:8000/auth/google";
-  };
+ const handleGoogleLogin = () => {
+  const baseURL = import.meta.env.DEV
+    ? import.meta.env.VITE_LOCALHOST
+    : import.meta.env.VITE_SERVER_URL;
 
+  window.location.href = `${baseURL}/auth/google`;
+};
 
 
 
